@@ -1,4 +1,4 @@
-package Pertemuan1.Tugas;
+package Tugas1;
 
 import java.awt.*;
 import javax.swing.*;

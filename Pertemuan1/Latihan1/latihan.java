@@ -1,4 +1,4 @@
-package Pertemuan1.Latihan;
+package Latihan1;
 
 import java.awt.GridLayout;
 import javax.swing.JFrame;

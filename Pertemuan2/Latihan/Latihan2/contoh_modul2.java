@@ -1,9 +1,10 @@
-package Pertemuan2;
+package Latihan2;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 public class contoh_modul2 {
+
     private static final int BATAS_STOK = 100_000;
     private final JFrame frame = new JFrame("Contoh 2 - Validasi Input");
     private final JTextField namaField = new JTextField(24);
@@ -46,7 +47,7 @@ public class contoh_modul2 {
         }
 
         final int stok;
-        
+
         try {
             stok = Integer.parseInt(teksStok);
         } catch (NumberFormatException e) {
@@ -64,8 +65,7 @@ public class contoh_modul2 {
         JOptionPane.showMessageDialog(frame,
                 "Input valid. Stok awal: " + stok,
                 "Hasil pemeriksaan", JOptionPane.INFORMATION_MESSAGE);
-        }
-    
+    }
 
     private void tampilkanKesalahan(String pesan, JTextField field) {
         JOptionPane.showMessageDialog(frame, pesan,
